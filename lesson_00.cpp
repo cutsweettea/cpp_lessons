@@ -20,7 +20,8 @@ int main() {
     /*  printf is the same as print from python, with small differences.
         print in python has an automatically set argument called "end",
         that is always set to newline (\n), which is then appended to the end of the string.
-        with printf, we need to add the newline (\n), or it'll look ugly. */
+        with printf, we need to add the newline (\n), or it'll look ugly.
+        ALSO, you need semicolons after most things!!! */
     printf("hello world!\n");
     /*  return works the same as python, it stops executing the function
         and returns the value after the return.
@@ -34,4 +35,5 @@ int main() {
     to make any of the targets, you use "make {target name}".
     you can also execute the commands in the target's code,
     and that will do the same thing.
-    to compile this, use "make lesson_00", then use "./lesson_00.bin" to run it */
+    to compile this, use "make lesson_00", then use "./lesson_00.bin" to run it.
+    ALSO, remember to recompile anytime you change code!!! */
